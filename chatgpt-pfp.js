@@ -20,7 +20,7 @@ function addIcon ( target ) {
     icon.style.borderRadius = "50%";
     icon.style.backgroundImage = `url(${URL})`;
     icon.style.backgroundSize = "100% 100%";
-    iconstyle.zIndex = "-9";
+    icon.style.zIndex = "-9";
 
     icon.classList.add( "assistant-icon" );
 
@@ -47,7 +47,7 @@ function addName ( target ) {
     name.style.marginRight = "0rem";
     name.style.borderRadius = "50%";
     name.style.background = "#444444"
-    namestyle.zIndex = "-9";
+    name.style.zIndex = "-9";
 
     name.classList.add( "user-name" );
 
